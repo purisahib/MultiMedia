@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF"
+    android:orientation="vertical"
+    tools:context=".pacakagestart.StartActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#4E504646"
+                android:drawableLeft="@drawable/ic_folder"
+                android:layout_marginTop="5dp"
+                android:text="PDF" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#4E504646"
+                android:drawableLeft="@drawable/ic_folder"
+                android:layout_marginTop="5dp"
+                android:text="Doc/txt" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#4E504646"
+                android:drawableLeft="@drawable/ic_folder"
+                android:layout_marginTop="5dp"
+                android:text="Video" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#4E504646"
+                android:drawableLeft="@drawable/ic_folder"
+                android:layout_marginTop="5dp"
+                android:text="Audio" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#4E504646"
+                android:drawableLeft="@drawable/ic_folder"
+                android:layout_marginTop="5dp"
+                android:text="Image" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#4E504646"
+                android:drawableLeft="@drawable/ic_folder"
+                android:layout_marginTop="5dp"
+                android:text="Button" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
